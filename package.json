@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "nodemon script.js"
   },
   "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
     "servor": "^4.0.2"
   }
 }
